@@ -19,7 +19,7 @@ public class Message {
 		this.author=author;
 		this.id=id;
 		this.createdat=new Date();
-		this.msg=msg;
+		this.msg=msg; 
 	}
 		public long getId() {
 		return id;
