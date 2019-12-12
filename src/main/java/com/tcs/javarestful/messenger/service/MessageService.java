@@ -18,7 +18,6 @@ public class MessageService {
 //		list.add(m1);
 //		list.add(m2);
 //		return list;
-//	}
 	
 	private Map<Long,Message> msgs = DBClass.getMessages();
 	
