@@ -23,7 +23,7 @@ public class MessageService {
 	private Map<Long,Message> msgs = DBClass.getMessages();
 	
 	public MessageService() {
-		msgs.put((long) 101, new Message(191,"Hi","Geetha"));
+		msgs.put((long) 101, new Message(191,"Hi","Geetha "));
 		msgs.put((long) 102, new Message(192,"TCS","Geetha"));
 		msgs.put((long) 103, new Message(198,"INFOSYS","Gayathri"));
 	}
